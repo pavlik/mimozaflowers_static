@@ -1,0 +1,30 @@
+.page-header {
+    background-color: #FFF;
+    color: #000;
+}
+
+img.logo {
+    width: 400px;
+}
+
+.insta .col-md-3 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/* xs */
+.logo, .logo-text, .footer .left, .footer .center, .footer .right  { text-align: center; }
+
+/* md */
+@media(min-width:992px) {
+    .logo { text-align: left; }
+    .logo-text { text-align: right; }
+    .footer .left { text-align: left; }
+    .footer .center  { text-align: center; }
+    .footer .right { text-align: right; }
+}
+
+.footer
+{
+  padding-bottom: 40px;
+}
